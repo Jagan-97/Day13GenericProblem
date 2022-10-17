@@ -24,5 +24,13 @@ public class GenericMain {
         System.out.printf("Maximum of %.1f,%.1f and %.1f is %.1f\n\n", 7.7,8.8,6.6,maximum(7.7,8.8,6.6));
         //Test case 1.3-Given Max Number at 3rd Position return the Same Number
         System.out.printf("Maximum of %.1f,%.1f and %.1f is %.1f\n\n", 6.6,7.7,8.8,maximum(6.6,7.7,8.8));
+        //Given 3 String Number
+        //Test case 1.1-Given Max Number at 1st Position return the Same Number
+        System.out.printf("Maximum of %s,%s and %s is %s\n", "Apple","Peach","Banana",maximum("Apple","Peach","Banana"));
+        //Test case 1.2-Given Max Number at 2nd Position return the Same Number
+        System.out.printf("Maximum of %s,%s and %s is %s\n", "Peach","Apple","Banana",maximum("Peach","Apple","Banana"));
+        //Test case 1.3-Given Max Number at 3rd Position return the Same Number
+        System.out.printf("Maximum of %s,%s and %s is %s\n", "Peach","Banana","Apple",maximum("Peach","Banana","Apple"));
+
     }
 }
